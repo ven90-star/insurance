@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load saved model
-model = joblib.load('/content/best_gradient_boosting_model.pkl')
+model = joblib.load('linear_regression_model.joblib')
 
 st.title("🏥 Insurance Charges Prediction App")
 st.subheader("Enter the following details:")
